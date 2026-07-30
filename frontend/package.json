@@ -3,30 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/dom": "^9.3.4",
-    "@testing-library/jest-dom": "^6.1.5",
-    "@testing-library/react": "^14.1.2",
-    "@testing-library/user-event": "^14.5.1",
-    "autoprefixer": "^10.4.16",
     "lucide-react": "^0.294.0",
-    "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
-    "tailwindcss": "^3.3.6",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^6.0.1"
   },
   "scripts": {
-    "start": "node node_modules/react-scripts/bin/react-scripts.js start",
-    "build": "node node_modules/react-scripts/bin/react-scripts.js build",
-    "test": "node node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node node_modules/react-scripts/bin/react-scripts.js eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -42,8 +34,8 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.32",
-    "tailwindcss": "^3.3.6"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
   }
 }

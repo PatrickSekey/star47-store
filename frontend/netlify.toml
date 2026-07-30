@@ -1,0 +1,7 @@
+[build]
+  command = "node node_modules/react-scripts/bin/react-scripts.js build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  
