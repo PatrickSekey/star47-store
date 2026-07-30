@@ -7,13 +7,10 @@ const CategoryBar = () => {
 
   const categories = [
     'Fresh',
-    'Prime Video',
     'Sell',
     "Today's Deals",
     'Mobile',
     'New Releases',
-    'Prime',
-    'Amazon Pay',
     'Electronics',
     'Customer Service',
     'Home & Kitchen',
@@ -69,7 +66,7 @@ const CategoryBar = () => {
             {/* Header - Hello, sign in with hover animation */}
             <Link 
               to="/login"
-              className="bg-[#232F3E] text-white p-4 flex items-center space-x-3 hover:bg-[#2a3a4e] transition-all duration-300 cursor-pointer block group"
+              className="bg-[#232F3E] text-white p-4 flex items-center space-x-3 hover:bg-[#2a3a4e] transition-all duration-300 cursor-pointer group"
               onClick={() => setIsAllMenuOpen(false)}
             >
               <div className="bg-white/20 p-2 rounded-full group-hover:scale-110 transition-transform duration-300">
@@ -129,8 +126,8 @@ const CategoryBar = () => {
               </div>
               <div className="pl-8 py-1 text-sm text-gray-600">
                 <div className="py-1 hover:text-blue-600 cursor-pointer">Gift Cards & Mobile Recharges</div>
-                <div className="py-1 hover:text-blue-600 cursor-pointer">Amazon Launchpad</div>
-                <div className="py-1 hover:text-blue-600 cursor-pointer">Amazon Business</div>
+                <div className="py-1 hover:text-blue-600 cursor-pointer"></div>
+                <div className="py-1 hover:text-blue-600 cursor-pointer"></div>
                 <div className="py-1 hover:text-blue-600 cursor-pointer">Handloom and Handicrafts</div>
                 <div className="py-1 text-blue-600 font-medium cursor-pointer">See all</div>
               </div>

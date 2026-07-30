@@ -184,7 +184,7 @@ const Home = () => {
         <div className="flex justify-between items-center mb-4">
           <div>
             <h2 className="text-2xl font-bold text-gray-800">Fashion Collection</h2>
-            <p className="text-sm text-gray-500">Premium apparel from STAR47</p>
+            <p className="text-sm text-gray-500">Premium clothing from STAR47</p>
           </div>
           <Link to="/services" className="text-blue-600 hover:text-blue-800 font-semibold flex items-center space-x-1">
             <span>View All</span>
