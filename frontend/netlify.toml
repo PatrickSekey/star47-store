@@ -1,7 +1,9 @@
-﻿[build]
+﻿@"
+[build]
   command = "CI= npm run build"
   publish = "build"
 
 [build.environment]
   NODE_VERSION = "18"
   CI = "false"
+"@ | Out-File -FilePath netlify.toml -Encoding ascii
