@@ -2,18 +2,93 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Primary Meta Tags -->
+    <title>STAR47 - Premium T-Shirts & Fashion | Limited Edition Drops</title>
+    <meta name="title" content="STAR47 - Premium T-Shirts & Fashion" />
+    <meta name="description" content="STAR47 - Premium T-Shirts. Explore limited edition designs, comfortable premium cotton t-shirts, hoodies, and exclusive fashion drops." />
+    <meta name="keywords" content="STAR47, premium t-shirts, limited edition, fashion, hoodies, streetwear, exclusive drops" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="author" content="STAR47" />
+    <meta name="theme-color" content="#FF9900" />
+    
+    <!-- Favicon -->
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#FF9900" />
-    <meta
-      name="description"
-      content="Star47 - Premium T-Shirts E-commerce Store"
-    />
-    <title>STAR47</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://star47store.com/" />
+    <meta property="og:title" content="STAR47 - Premium T-Shirts & Fashion" />
+    <meta property="og:description" content="STAR47 - Premium T-Shirts. Shop limited edition designs in premium cotton. New drops weekly." />
+    <meta property="og:image" content="%PUBLIC_URL%/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="STAR47" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://star47store.com/" />
+    <meta property="twitter:title" content="STAR47 - Premium T-Shirts & Fashion" />
+    <meta property="twitter:description" content="STAR47 - Premium T-Shirts. Shop limited edition designs in premium cotton." />
+    <meta property="twitter:image" content="%PUBLIC_URL%/images/og-image.jpg" />
+    
+    <!-- JSON-LD Structured Data for Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "STAR47",
+        "url": "https://star47store.com",
+        "logo": "https://star47store.com/images/logo.jpg",
+        "description": "STAR47 - Premium T-Shirts and fashion brand offering limited edition designs.",
+        "sameAs": [
+          "https://instagram.com/star47",
+          "https://twitter.com/star47"
+        ]
+      }
+    </script>
+    
+    <!-- JSON-LD Structured Data for Website -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "STAR47",
+        "url": "https://star47store.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://star47store.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+    
+    <!-- JSON-LD Structured Data for Products (will be populated dynamically) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "STAR47 T-Shirt",
+        "description": "Premium cotton t-shirt with original design.",
+        "brand": {
+          "@type": "Brand",
+          "name": "STAR47"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "50.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "https://star47store.com"
+        }
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
